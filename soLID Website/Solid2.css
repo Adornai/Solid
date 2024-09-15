@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    
+    background: linear-gradient(#3f3dd1, #3f3dd1, #ffffff);
+    opacity: 80%;
+}
+
+.inner_header{
+    width: auto;
+    height: 100%;
+    display: flex;
+    margin: 0 70;
+    
+}
+
+.navigation ul li a:hover{
+    background: #e4e4e7;
+    color: #b40a0a;
+    transition: 6s;
+}
+
+.logo_container{
+    height: 100%;
+    display: flex;
+    float: left;
+}
+
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_container h1 span{
+    font-weight: 800;
+    color: antiquewhite;
+}
+
+/*.navigation{
+    float: right;
+    height: 70px;
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+}*/
+
+.navigation {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    gap: 16px;
+    color: rgb(243, 243, 245);
+    margin-left: 300px;
+    
+    
+    
+
+}
+
+ ul{
+    display: block;
+    padding: 15px 0;
+    
+}
+
+.navigation a:last-child{
+    padding-right: 0px;
+}
+
+.navigation a li{
+    display: block;
+    vertical-align: middle;
+    height: 100%;
+    color: rgb(216, 32, 32);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    float: middle;
+}
+
+.logo{
+    position: absolute;
+    height: auto;
+    left: -3px;
+    width: 80px;
+}
+
+body{
+    background: url("C:/Users/USER/soLID Website/Image/wallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size:20px;
+}
+
+.buttons .btn{
+    border-radius: 100%;
+    background: #83C0F2;
+    width: 100px;
+    height: 100px;
+    font-weight: 300;
+    cursor: pointer;
+    margin: space;
+    position: relative;
+    top: 270px;
+    transition:0.3s ease-in-out;
+}
+
+.import {
+    background: #83C0F2;
+    width: 170px;
+    height: 30px;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    border: 1px solid;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    left: 970px;
+    display: inline;
+}
+
+.import:hover {
+    background: #f2839b;
+}
+.create {
+    background: #83C0F2;
+    width: 170px;
+    height: 30px;
+    font-weight: 500;
+    border-radius: 30px;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+    border: 1px solid;
+    font-family: cursive;
+    font-weight: bold;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline;
+}
+.create:hover {
+    background: #87f283;
+}
+
+.premium .card{
+  width:1000 ;
+  max-width: 0px;
+  height: 20px;
+  object-fit: cover;
+  display: flex;
+}
+
+.card {
+    width: 600;
+    height: 315;
+    position: absolute;
+    float: right ;
+    right: 5px;
+    top: 50px;
+}
+.premium {
+    width: 600px;
+    height: 315px;
+    position: absolute;
+    float: right;
+    right: -30px;
+    top: 120px;
+}
+
+.link {
+    position: relative;
+    top: 0px;
+    padding: space;
+}
+.home {
+    color: rgb(19, 196, 228);
+    font-weight: bold;
+    top: 25px;
+    position: absolute;
+    left: 350px;
+}
+.about {
+    color: black;
+    font-weight: bold;
+    top: 25px;
+    position: absolute;
+    left: 430px;
+}
+.service {
+    color: black;
+    font-weight: bold;
+    top: 25px;
+    position: absolute;
+    left: 550px;
+}
+.contact{
+    color: black;
+    font-weight: bold;
+    top: 25px;
+    position: absolute;
+    left: 650px;
+}
+.sol-id {
+    font-family: fantasy;
+    font-size: 60px;
+    position: absolute;
+    top: 180px;
+    right: 170px;
+    color: #83C0F2;
+}
+.point {
+    font-family: fantasy;
+    font-size: 60px;
+    position: absolute;
+    top: 330px;
+    right: 130px;
+    color: #9561f7;   
+}
+.user-name {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    position: absolute;
+    top: 150px;
+    left: 20px;
+}
+.simple {
+    position: absolute;
+    top: 200px;
+    left: 25px;
+}
+.companion {
+    font-size: 50px;
+    font-family: fantasy;
+    top: 250px;
+    position: absolute;
+    left: 25px;
+}
+.buttons .btn:hover {
+    background: #073a61;
+}
+.nft {
+    font-weight: bold;
+    position: absolute;
+    bottom: 130px;
+    left: 40px;
+}
+.swap {
+    font-weight: bold;
+    position: absolute;
+    bottom: 130px;
+    left: 135px;
+}
+.dapps {
+    font-weight: bold;
+    position: absolute;
+    bottom: 130px;
+    left: 235;
+}
+.bounty {
+    font-weight: bold;
+    position: absolute;
+    bottom: 130px;
+    left: 335;
+}
